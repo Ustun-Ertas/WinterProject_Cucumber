@@ -1,8 +1,10 @@
 package stepdefinitions;
 
 import com.github.javafaker.Faker;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.openqa.selenium.Keys;
 import pages.parameterizingPage;
 import utilities.ConfigurationReader;
@@ -60,4 +62,5 @@ public class parameterizingStepDef {
 
 
     }
+
 }
