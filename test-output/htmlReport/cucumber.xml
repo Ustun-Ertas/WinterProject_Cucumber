@@ -1,15 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.36" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="ets tur sitesi login" name="ets tur login" time="0.052">
+<testsuite name="Cucumber" time="0.983" tests="5" skipped="0" failures="5" errors="0">
+<testcase classname="Negatif Uyelik" name="Negatif Uyelik - Example #1.1" time="0.105">
 <failure/>
 <system-out><![CDATA[
-Given ets tur sitesine gidilir..............................................undefined
-And login butonu ustune gidilir.............................................skipped
-When giris butona basilir...................................................skipped
-And eposta girilir..........................................................skipped
-And password girilir........................................................skipped
-When giris yap butununa basilir.............................................skipped
-Then sayfaya gidilmedigi dogrulanir.........................................skipped
+Given boyner sitesine gidilir...............................................undefined
+When login ikonu ustune gidilir.............................................skipped
+Given "boyner" sitesine gidilir.............................................skipped
+And uye ol linki tiklanir...................................................skipped
+Then uyelik sayfasinda oldugu dogrulanir....................................skipped
+And uyelik sayfasinda ad bolumune "hakan" girilir...........................skipped
+And uyelik sayfasinda email bolumune"jazih.poe" girilir.....................skipped
+And uyelik sayfasinda sifre bolumune"123456" girilir........................skipped
+And uyelik sayfasinda ceptelefonu bolumune"5555443322" girilir..............skipped
+And uyelik sayfasinda uyelik metni checkboxa "1" checkbox secilir...........skipped
+And uyelik sayfasinda riza metni checkboxa"1" checkbox secilir..............skipped
+And uye ol butonu tiklanir..................................................skipped
+Then uye olunamadigi dogrulanir.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Negatif Uyelik" name="Negatif Uyelik - Example #1.2" time="0.072">
+<failure/>
+<system-out><![CDATA[
+Given boyner sitesine gidilir...............................................undefined
+When login ikonu ustune gidilir.............................................skipped
+Given "boyner" sitesine gidilir.............................................skipped
+And uye ol linki tiklanir...................................................skipped
+Then uyelik sayfasinda oldugu dogrulanir....................................skipped
+And uyelik sayfasinda ad bolumune "hakan" girilir...........................skipped
+And uyelik sayfasinda email bolumune"jazih.poe@" girilir....................skipped
+And uyelik sayfasinda sifre bolumune"123456" girilir........................skipped
+And uyelik sayfasinda ceptelefonu bolumune"5555443322" girilir..............skipped
+And uyelik sayfasinda uyelik metni checkboxa "1" checkbox secilir...........skipped
+And uyelik sayfasinda riza metni checkboxa"1" checkbox secilir..............skipped
+And uye ol butonu tiklanir..................................................skipped
+Then uye olunamadigi dogrulanir.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Negatif Uyelik" name="Negatif Uyelik - Example #1.3" time="0.04">
+<failure/>
+<system-out><![CDATA[
+Given boyner sitesine gidilir...............................................undefined
+When login ikonu ustune gidilir.............................................skipped
+Given "boyner" sitesine gidilir.............................................skipped
+And uye ol linki tiklanir...................................................skipped
+Then uyelik sayfasinda oldugu dogrulanir....................................skipped
+And uyelik sayfasinda ad bolumune "hakan" girilir...........................skipped
+And uyelik sayfasinda email bolumune"jazih.poe@yahoo" girilir...............skipped
+And uyelik sayfasinda sifre bolumune"123456" girilir........................skipped
+And uyelik sayfasinda ceptelefonu bolumune"5555443322" girilir..............skipped
+And uyelik sayfasinda uyelik metni checkboxa "1" checkbox secilir...........skipped
+And uyelik sayfasinda riza metni checkboxa"1" checkbox secilir..............skipped
+And uye ol butonu tiklanir..................................................skipped
+Then uye olunamadigi dogrulanir.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Negatif Uyelik" name="Negatif Uyelik - Example #1.4" time="0.017">
+<failure/>
+<system-out><![CDATA[
+Given boyner sitesine gidilir...............................................undefined
+When login ikonu ustune gidilir.............................................skipped
+Given "boyner" sitesine gidilir.............................................skipped
+And uye ol linki tiklanir...................................................skipped
+Then uyelik sayfasinda oldugu dogrulanir....................................skipped
+And uyelik sayfasinda ad bolumune "hakan" girilir...........................skipped
+And uyelik sayfasinda email bolumune"jazih.poe@gmail." girilir..............skipped
+And uyelik sayfasinda sifre bolumune"123456" girilir........................skipped
+And uyelik sayfasinda ceptelefonu bolumune"5555443322" girilir..............skipped
+And uyelik sayfasinda uyelik metni checkboxa "1" checkbox secilir...........skipped
+And uyelik sayfasinda riza metni checkboxa"1" checkbox secilir..............skipped
+And uye ol butonu tiklanir..................................................skipped
+Then uye olunamadigi dogrulanir.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Negatif Uyelik" name="Negatif Uyelik - Example #1.5" time="0.025">
+<failure/>
+<system-out><![CDATA[
+Given boyner sitesine gidilir...............................................undefined
+When login ikonu ustune gidilir.............................................skipped
+Given "boyner" sitesine gidilir.............................................skipped
+And uye ol linki tiklanir...................................................skipped
+Then uyelik sayfasinda oldugu dogrulanir....................................skipped
+And uyelik sayfasinda ad bolumune "hakan" girilir...........................skipped
+And uyelik sayfasinda email bolumune"jazih.poe@hotmail.c" girilir...........skipped
+And uyelik sayfasinda sifre bolumune"123456" girilir........................skipped
+And uyelik sayfasinda ceptelefonu bolumune"5555443322" girilir..............skipped
+And uyelik sayfasinda uyelik metni checkboxa "1" checkbox secilir...........skipped
+And uyelik sayfasinda riza metni checkboxa"1" checkbox secilir..............skipped
+And uye ol butonu tiklanir..................................................skipped
+Then uye olunamadigi dogrulanir.............................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

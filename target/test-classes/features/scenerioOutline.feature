@@ -5,7 +5,7 @@ Feature: Negatif Uyelik
     When login ikonu ustune gidilir
 
 
-  @boyner
+
   Scenario: Pozitif Uyelik
     And giris yap butonu tiklanir
     And eposta kismina eposta girilir
@@ -13,7 +13,7 @@ Feature: Negatif Uyelik
     And uyelik icin giris yap butonu tiklanir
     Then giris yapildigi dogrulanir
 
-
+  @boyner
   Scenario Outline: Negatif Uyelik
     Given "boyner" sitesine gidilir
     When login ikonu ustune gidilir

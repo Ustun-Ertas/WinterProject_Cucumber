@@ -1,9 +1,9 @@
-@ets
+
 Feature: ets tur sitesi login
   Background:  ets sitesi giris
     Given ets tur sitesine gidilir
     And login butonu ustune gidilir
-
+  @ets
   Scenario: TC-01 ets tur login
     When giris butona basilir
     And eposta girilir
